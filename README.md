@@ -4,6 +4,7 @@ Documentation Cocote
 Description :
 
 Cocote est un outil conçu pour de l'ellaboration collective de textes, traitant du textes ajouté, les divisant en paragraphes, permettant ainsi aux utilisateurs de mettre à jour des textes sélectionnés, un système de vote "Like" ou "Dislike" des publications de textes, et d'autoriser uniquement le créateur du post des textes à modifier ou supprimer une publication.
+
 2. Prérequis
 
 Outils/Bibliothèques/Logiciels :
