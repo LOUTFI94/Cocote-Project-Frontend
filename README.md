@@ -3,7 +3,7 @@ Documentation Cocote
 
 Description :
 
-Cocote est un outil conçu pour gérer les textes en les divisant en paragraphes, permettant aux utilisateurs de mettre à jour des textes sélectionnés, d'aimer ou de ne pas aimer des publications, et d'autoriser uniquement le créateur à supprimer une publication.
+Cocote est un outil conçu l'ellaboration collective de textes, traitant les textes ajouter, les divisant en paragraphes, permettant ainsi aux utilisateurs de mettre à jour des textes sélectionnés, d'aimer ou de ne pas aimer des publications de textes, et d'autoriser uniquement le créateur du post des textes à modifier ou supprimer une publication.
 2. Prérequis
 
 Outils/Bibliothèques/Logiciels :
