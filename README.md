@@ -23,23 +23,23 @@ Implémentation Frontend
 
 Page d'Inscription :
 
-Pour commencer le projet, je suis allé dans pages.js pour concevoir le formulaire d'inscription. Le formulaire que j'ai créé permet aux utilisateurs de saisir leur nom d'utilisateur, leur email et leur mot de passe. J'ai mis en place une fonctionnalité pour gérer les soumissions de formulaires, qui envoie les détails de l'utilisateur au backend pour l'inscription.
+Pour commencer le projet, on est allé dans pages.js pour concevoir le formulaire d'inscription. Le formulaire créé permet aux utilisateurs de saisir leur nom d'utilisateur, leur email et leur mot de passe. mise en place une fonctionnalité pour gérer les soumissions de formulaires, qui envoie les détails de l'utilisateur au backend pour l'inscription.
 
 Page de Connexion :
 
-Ensuite, j'ai travaillé sur pages/login.js pour concevoir le formulaire de connexion. Ce formulaire permet aux utilisateurs de saisir leur email et leur mot de passe. J'ai veillé à ce que le formulaire gère les soumissions en envoyant les informations d'identification de l'utilisateur au backend pour l'authentification.
+Ensuite, on a travaillé sur pages/login.js pour concevoir le formulaire de connexion. Ce formulaire permet aux utilisateurs de saisir leur email et leur mot de passe. et veillé à ce que le formulaire gère les soumissions en envoyant les informations d'identification de l'utilisateur au backend pour l'authentification.
 
 Implémentation Backend
 
 Inscription de l'Utilisateur :
 
-J'ai créé une route backend (POST /register) spécifiquement pour l'inscription des utilisateurs. Dans cette route, j'ai extrait le nom d'utilisateur, l'email et le mot de passe du corps de la requête. J'ai mis en œuvre une validation des entrées pour m'assurer que tous les champs sont correctement remplis. Pour des raisons de sécurité, j'ai haché le mot de passe avant de le stocker dans la base de données. Ensuite, j'ai créé un nouveau document utilisateur dans la base de données et configuré la réponse pour renvoyer soit un message de succès, soit l'objet utilisateur en cas de succès de l'inscription.
+Création d'une route backend (POST /register) spécifiquement pour l'inscription des utilisateurs. Dans cette route, on a extrait le nom d'utilisateur, l'email et le mot de passe du corps de la requête. puis la mise en œuvre d'une validation des entrées pour m'assurer que tous les champs sont correctement remplis. Pour des raisons de sécurité, on a haché le mot de passe avant de le stocker dans la base de données. Ensuite, créé un nouveau document utilisateur dans la base de données et configuré la réponse pour renvoyer soit un message de succès, soit l'objet utilisateur en cas de succès de l'inscription.
 
 Connexion de l'Utilisateur :
 
-Pour la fonctionnalité de connexion, j'ai mis en place une autre route backend (POST /login). Cette route extrait l'email et le mot de passe du corps de la requête. J'ai validé les champs d'entrée puis recherché dans la base de données l'utilisateur avec l'email fourni. J'ai comparé le mot de passe haché stocké avec le mot de passe fourni lors de la tentative de connexion. Si les informations d'identification étaient valides, j'ai généré un jeton JWT avec les informations de l'utilisateur et l'ai renvoyé au frontend.
+Pour la fonctionnalité de connexion, on a miten place une autre route backend (POST /login). Cette route extrait l'email et le mot de passe du corps de la requête. on a validé les champs d'entrée puis recherché dans la base de données l'utilisateur avec l'email fourni. on a comparé le mot de passe haché stocké avec le mot de passe fourni lors de la tentative de connexion. Si les informations d'identification étaient valides, puis généré un jeton JWT avec les informations de l'utilisateur et l'avons renvoyé au frontend.
 
-En suivant ces étapes, j'ai réussi à implémenter les fonctionnalités d'inscription et de connexion. Le projet propose désormais une authentification sécurisée des utilisateurs via des mots de passe hachés et des jetons JWT, avec une interaction transparente entre les formulaires frontend et les processus backend.
+En suivant ces étapes, nous avons réussi à implémenter les fonctionnalités d'inscription et de connexion. Le projet propose désormais une authentification sécurisée des utilisateurs via des mots de passe hachés et des jetons JWT, avec une interaction transparente entre les formulaires frontend et les processus backend.
 
     Page Tableau de Bord (Fonctionnalité et Implémentation)
 
