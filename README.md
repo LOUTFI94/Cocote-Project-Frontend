@@ -37,7 +37,7 @@ Création d'une route backend (POST /register) spécifiquement pour l'inscriptio
 
 Connexion de l'Utilisateur :
 
-Pour la fonctionnalité de connexion, on a miten place une autre route backend (POST /login). Cette route extrait l'email et le mot de passe du corps de la requête. on a validé les champs d'entrée puis recherché dans la base de données l'utilisateur avec l'email fourni. on a comparé le mot de passe haché stocké avec le mot de passe fourni lors de la tentative de connexion. Si les informations d'identification étaient valides, puis généré un jeton JWT avec les informations de l'utilisateur et l'avons renvoyé au frontend.
+Pour la fonctionnalité de connexion, on a mit en place une autre route backend (POST /login). Cette route extrait l'email et le mot de passe du corps de la requête. on a validé les champs d'entrée puis recherché dans la base de données l'utilisateur avec l'email fourni. on a comparé le mot de passe haché stocké avec le mot de passe fourni lors de la tentative de connexion. Si les informations d'identification étaient valides, puis généré un jeton JWT avec les informations de l'utilisateur et l'avons renvoyé au frontend.
 
 En suivant ces étapes, nous avons réussi à implémenter les fonctionnalités d'inscription et de connexion. Le projet propose désormais une authentification sécurisée des utilisateurs via des mots de passe hachés et des jetons JWT, avec une interaction transparente entre les formulaires frontend et les processus backend.
 
