@@ -1,4 +1,4 @@
-Documentation Cocote
+Documentation Cocote projet Paris8
 1. Aperçu du Projet
 
 Description :
