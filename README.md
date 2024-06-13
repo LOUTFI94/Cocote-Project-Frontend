@@ -34,7 +34,7 @@ Implémentation Backend
 
 Inscription de l'Utilisateur :
 
-Création d'une route backend (POST /register) spécifiquement pour l'inscription des utilisateurs. Dans cette route, on a extrait le nom d'utilisateur, l'email et le mot de passe du corps de la requête. puis la mise en œuvre d'une validation des entrées pour m'assurer que tous les champs sont correctement remplis. Pour des raisons de sécurité, on a haché le mot de passe avant de le stocker dans la base de données. Ensuite, créé un nouveau document utilisateur dans la base de données et configuré la réponse pour renvoyer soit un message de succès, soit l'objet utilisateur en cas de succès de l'inscription.
+Création d'une route backend (POST /register) spécifiquement pour l'inscription des utilisateurs. Dans cette route, on a extrait le nom d'utilisateur, l'email et le mot de passe du corps de la requête. puis la mise en œuvre d'une validation des entrées pour s'assurer que tous les champs sont correctement remplis. Pour des raisons de sécurité, on a haché le mot de passe avant de le stocker dans la base de données. Ensuite, créé un nouveau document utilisateur dans la base de données et configuré la réponse pour renvoyer soit un message de succès, soit l'objet utilisateur en cas de succès de l'inscription.
 
 Connexion de l'Utilisateur :
 
