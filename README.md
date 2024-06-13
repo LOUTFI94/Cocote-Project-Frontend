@@ -165,5 +165,5 @@ Utilisation du Projet :
     Étape 2 : Créez une nouvelle publication en saisissant du texte.
     Étape 3 : Divisez automatiquement le texte en paragraphes.
     Étape 4 : Mettez à jour n'importe quel paragraphe en le sélectionnant et en modifiant le texte.
-    Étape 5 : Aimez ou n'aimez pas les publications à l'aide des boutons fournis.
+    Étape 5 : « Aimer » ou ne « pas aimer » les publications des utilisateurs à l'aide des boutons de vote fournis.
     Étape 6 : Seul le créateur peut supprimer sa publication à l'aide de l'option de suppression.
