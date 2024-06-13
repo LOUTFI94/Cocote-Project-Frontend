@@ -108,7 +108,7 @@ Gestionnaires d'Événements
 Ce document fournit un aperçu et une explication détaillée du composant Publications dans une application basée sur React. La page Publications est conçue pour afficher des publications aux utilisateurs authentifiés et inclut des mesures de protection pour garantir que seuls les utilisateurs connectés peuvent y accéder.
 Aperçu
 
-Le composant Publications est un composant fonctionnel React utilisant des hooks pour la gestion de l'état et les effets secondaires. Les principales fonctionnalités incluent :
+Le composant Posts (publication) est un composant fonctionnel React utilisant des hooks pour la gestion de l'état et les effets secondaires. Les principales fonctionnalités incluent :
 
     Protéger la page contre les accès non authentifiés.
     Afficher un en-tête et le contenu des publications.
