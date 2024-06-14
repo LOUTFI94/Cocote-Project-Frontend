@@ -1,5 +1,7 @@
-Documentation Cocote projet Paris8
+Documentation Cocote projet tutoré Paris8
 1. Aperçu du Projet
+
+Voici le lien vers l'application  : https://cocote-frontend.vercel.app/
 
 Description :
 
