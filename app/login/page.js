@@ -72,7 +72,7 @@ export default function Login() {
         />
         <span className="px-4 xl:w-[500px]">
           <h1 className="font-bold text-3xl mb-2 text-center">
-           L'Application d'élaboration collective de texte.
+           L'application d'élaboration collective de texte.
           </h1>
           <p className="font-light text-sm text-center">
             Autonomiser les écrivains et les créateurs.
