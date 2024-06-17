@@ -72,10 +72,11 @@ export default function Login() {
         />
         <span className="px-4 xl:w-[500px]">
           <h1 className="font-bold text-3xl mb-2 text-center">
-            Application de Développement de Texte Collectif
+           L'Application d'élaboration collective de texte.
           </h1>
           <p className="font-light text-sm text-center">
-            Autonomiser les Écrivains et Créateurs : Le Hub Ultime de Transformation de Texte pour une Expression Collective
+            Autonomiser les écrivains et les créateurs.
+            Un hub conçu pour une expression collective.
           </p>
         </span>
       </div>
